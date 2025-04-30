@@ -7,7 +7,7 @@ world
 	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
 	"mapversion" "384"
-	"comment" "Decompiled by BSPSource v1.4.2-rc.1 from main_menu"
+	"comment" "Decompiled by BSPSource v1.4.7 from main_menu"
 	"classname" "worldspawn"
 	solid
 	{
@@ -2338,61 +2338,61 @@ entity
 		side
 		{
 			"id" "174"
-			"plane" "(-128 46 32) (-128 46 26) (-128 90 26)"
+			"plane" "(4 132 0) (-28 116 0) (-28 116 20)"
 			"smoothing_groups" "0"
-			"material" "city/wall_city_tile02"
-			"uaxis" "[0 -1 0 0] 0.25"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"lightmapscale" "16"
 		}
 		side
 		{
 			"id" "175"
-			"plane" "(-126 90 32) (-126 90 26) (-126 46 26)"
+			"plane" "(-42.0005 142.0011 0) (-10 160.002 20) (-42.0039 142 20)"
 			"smoothing_groups" "0"
-			"material" "concrete/concrete_floor_01_a"
-			"uaxis" "[0 1 0 17] 0.2"
-			"vaxis" "[-0 -0 1 -130] 0.2"
+			"material" "tools/toolsblack"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"lightmapscale" "16"
 		}
 		side
 		{
 			"id" "176"
-			"plane" "(-126 46 32) (-126 46 26) (-128 46 26)"
+			"plane" "(-28.002 116.0039 0) (-41.9999 142.0001 0) (-42 142 20)"
 			"smoothing_groups" "0"
-			"material" "concrete/concrete_floor_01_a"
-			"uaxis" "[1 0 0 365] 0.2"
-			"vaxis" "[-0 -0 1 -130] 0.2"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"lightmapscale" "16"
 		}
 		side
 		{
 			"id" "177"
-			"plane" "(-128 90 32) (-128 90 26) (-126 90 26)"
+			"plane" "(-10 160 0) (3.998 132.0039 0) (3.998 132.0039 20)"
 			"smoothing_groups" "0"
-			"material" "concrete/concrete_floor_01_a"
-			"uaxis" "[-1 0 0 -163] 0.2"
-			"vaxis" "[-0 -0 1 -130] 0.2"
+			"material" "tools/toolsblack"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"lightmapscale" "16"
 		}
 		side
 		{
 			"id" "178"
-			"plane" "(-128 90 26) (-128 46 26) (-126 46 26)"
+			"plane" "(-10 160 0) (-42 142 0) (4 132 0)"
 			"smoothing_groups" "0"
-			"material" "composite/beam_01"
-			"uaxis" "[0 1 0 17] 0.25"
-			"vaxis" "[1 -0 -0 188] 0.25"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"lightmapscale" "16"
 		}
 		side
 		{
 			"id" "179"
-			"plane" "(-128 46 32) (-128 90 32) (-126 90 32)"
+			"plane" "(4 132 20) (-42.0005 142.0012 20) (-10.0006 160.0011 20)"
 			"smoothing_groups" "0"
-			"material" "concrete/concrete_floor_01_a"
-			"uaxis" "[0 1 0 17] 0.2"
-			"vaxis" "[-1 -0 -0 -88] 0.2"
+			"material" "tools/toolsblack"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"lightmapscale" "16"
 		}
 	}
@@ -2407,61 +2407,61 @@ entity
 		side
 		{
 			"id" "182"
-			"plane" "(4 132 0) (-28 116 0) (-28 116 20)"
+			"plane" "(-128 46 32) (-128 46 26) (-128 90 26)"
 			"smoothing_groups" "0"
-			"material" "tools/toolsblack"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"lightmapscale" "16"
-		}
-		side
-		{
-			"id" "183"
-			"plane" "(-42.0005 142.0011 0) (-10 160.002 20) (-42.0039 142 20)"
-			"smoothing_groups" "0"
-			"material" "tools/toolsblack"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"lightmapscale" "16"
-		}
-		side
-		{
-			"id" "184"
-			"plane" "(-28.002 116.0039 0) (-41.9999 142.0001 0) (-42 142 20)"
-			"smoothing_groups" "0"
-			"material" "tools/toolsblack"
+			"material" "city/wall_city_tile02"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"lightmapscale" "16"
 		}
 		side
 		{
-			"id" "185"
-			"plane" "(-10 160 0) (3.998 132.0039 0) (3.998 132.0039 20)"
+			"id" "183"
+			"plane" "(-126 90 32) (-126 90 26) (-126 46 26)"
 			"smoothing_groups" "0"
-			"material" "tools/toolsblack"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "concrete/concrete_floor_01_a"
+			"uaxis" "[0 1 0 17] 0.2"
+			"vaxis" "[-0 -0 1 -130] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "184"
+			"plane" "(-126 46 32) (-126 46 26) (-128 46 26)"
+			"smoothing_groups" "0"
+			"material" "concrete/concrete_floor_01_a"
+			"uaxis" "[1 0 0 365] 0.2"
+			"vaxis" "[-0 -0 1 -130] 0.2"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "185"
+			"plane" "(-128 90 32) (-128 90 26) (-126 90 26)"
+			"smoothing_groups" "0"
+			"material" "concrete/concrete_floor_01_a"
+			"uaxis" "[-1 0 0 -163] 0.2"
+			"vaxis" "[-0 -0 1 -130] 0.2"
 			"lightmapscale" "16"
 		}
 		side
 		{
 			"id" "186"
-			"plane" "(-10 160 0) (-42 142 0) (4 132 0)"
+			"plane" "(-128 90 26) (-128 46 26) (-126 46 26)"
 			"smoothing_groups" "0"
-			"material" "tools/toolsblack"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "composite/beam_01"
+			"uaxis" "[0 1 0 17] 0.25"
+			"vaxis" "[1 -0 -0 188] 0.25"
 			"lightmapscale" "16"
 		}
 		side
 		{
 			"id" "187"
-			"plane" "(4 132 20) (-42.0005 142.0012 20) (-10.0006 160.0011 20)"
+			"plane" "(-128 46 32) (-128 90 32) (-126 90 32)"
 			"smoothing_groups" "0"
-			"material" "tools/toolsblack"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "concrete/concrete_floor_01_a"
+			"uaxis" "[0 1 0 17] 0.2"
+			"vaxis" "[-1 -0 -0 -88] 0.2"
 			"lightmapscale" "16"
 		}
 	}
